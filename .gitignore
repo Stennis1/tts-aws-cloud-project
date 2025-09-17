@@ -3,3 +3,7 @@
 *.tfstate
 *.tfstate*.
 lambda_function.zip
+.vscode
+tfplan
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
