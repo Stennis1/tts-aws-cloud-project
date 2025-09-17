@@ -1,0 +1,73 @@
+@media(max-width:768px){
+    .sign-in-container {
+        flex-direction: column;        
+    }
+}
+
+.custom-card {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.custom-card h2 {
+    font-size: larger;
+}
+
+.p-header {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-f {
+    font-size: 13px;
+}
+
+.card-f a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.hr-with-text {
+    display: flex;
+    margin: 10px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.hr-with-text::after, 
+.hr-with-text::before {
+    content: '';
+    border-top: 2px solid #ccc;
+    flex: 0.5;
+}
+
+.hr-with-text span {
+    font-size: 16px;
+    white-space: nowrap;
+    padding: 0 15px;
+    margin: 0 5px;
+}
+
+.signup a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.signup p {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.fp a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.fp a:hover {
+    color: rgba(255, 0, 0, 0.7);
+}

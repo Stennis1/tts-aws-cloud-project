@@ -1,0 +1,58 @@
+.signin .nav-link:hover{
+    color: blue;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.pricing .nav-link:hover{
+    color: blue;
+    font-weight: 700;
+}
+
+.item .nav-link:hover{
+    color: blue;
+    font-weight: 700;
+}
+
+.home .nav-link:hover{
+    color: blue;
+    font-weight: 700;
+}
+
+.footer {
+    background: linear-gradient(to right, #5e89b8, #6610f2);
+}
+
+.btn-primary:hover {
+  background-color: #0d6efdcc;
+  transform: scale(1.02);
+}
+
+.btn-outline-black {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn-outline-black:hover {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.logo {
+    width: 40px;
+}
+
+.btn-signin, .btn-signup {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-signin:hover, .btn-signup:hover {
+    text-decoration: underline;
+    color: rgb(38, 23, 167);
+}
